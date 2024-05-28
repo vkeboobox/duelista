@@ -1,0 +1,222 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/* preloader start */
+	body{
+		font-size: 14.5px;
+	}
+	#preloader{
+		background-size: 220px;
+	}
+	#preloader img{
+		width: 80px;
+	}
+	/* preloader end */
+	/* header part start */
+	nav{
+		position: relative;
+	}
+	.page-box{
+		top: 90%;
+		right: 0;
+	}
+	.menu-box{
+		justify-content: center;
+	}
+	/* header part end */
+	/* hero part start */
+	.hero{
+		padding-top: 130px !important;
+	}
+	.hero-content h1,.features-header h1,.img-slider-text h1,.video-slider-text h1,.testi-text h1{
+		font-size: 35px;
+		font-weight: 700;
+		color: #fff;
+	}
+	/* hero part end */
+	/* features part start */
+	.features-card-box{
+		grid-template-columns: repeat(1,1fr);
+		gap: 25px;
+	}
+	.single-features h3,.subscrib-box h3{
+		font-size: 20px;
+	}
+	/* features part end */
+	/* image slider part start */
+	.img-wrapper .swiper-slide{
+		width: 100%;
+	}
+	/* image slider part end */
+	/* video slider part start */
+	.i-icon{
+		width: 20px;
+	}
+	.tooltip-box{
+		width: 20px;
+		height: 20px;
+		top: 10px;
+		right: 10px;
+	}
+	.video-tooltip{
+		top: 36px;
+		width: 270px;
+		padding: 10px;
+	}
+	.mySwiper-2{
+		padding-bottom: 0px;
+	}
+	/* video slider part end */
+	/* subscription part start */
+	.sub-btn,.buy-btn-box a{
+		padding: 8.5px 18px;
+		font-size: 14px;
+	}
+	/* subscription part end */
+	/* why choose us part start */
+	.choose-box{
+		margin-top: 0px;
+	}
+	.choose-text h2{
+		font-size: 32px;
+		font-weight: 700;
+	}
+	/* why choose us part end */
+	/* testimonial part start */
+	.testi-p{
+		font-size: 16px;
+		line-height: 27px;
+	}
+	.testi-img{
+		width: 30px;
+	}
+	.testimonial-box{
+		grid-template-columns: repeat(1,1fr);
+	}
+	.single-tesimonial{
+		padding: 18px;
+		padding-bottom: 30px;
+	}
+	/* testimonial part end */
+	/* what other said part start */
+	.other-said-box{
+		display: block;
+	}
+	.other-img {
+		margin-bottom: 15px;
+	}
+	.other-img:nth-child(2){
+		margin: 0;
+	}
+	.other-text p{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.other-two .other-text{
+		margin-bottom: 15px;
+	}
+	.other-text{
+		text-align: center;
+	}
+	/* what other said part end */
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* header part start */
+	nav{
+		position: relative;
+	}
+	.page-box{
+		right: 0;
+	}
+	/* header part end */
+	/* features part start */
+	.features-card-box{
+		grid-template-columns: repeat(2,1fr);
+		gap: 25px;
+	}
+	/* features part end */
+	/* image slider part start */
+	.mySwiper-1,.mySwiper-2{
+		width: 100% !important;
+	}
+	.img-wrapper .swiper-slide{
+		width: 400px;
+	}
+	/* image slider part end */
+	/* video slider start */
+	.video-tooltip{
+		width: 400px;
+	}
+	.mySwiper-2{
+		padding-bottom: 0px;
+	}
+	/* video slider end */
+	/* why choose us part start */
+	.choose-box{
+		margin-top: 0px;
+	}
+	/* why choose us part end */
+	/* testimonial part start */
+	.testimonial-box{
+		grid-template-columns: repeat(1,1fr);
+	}
+	/* testimonial part end */
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	/* header part start */
+	nav{
+		position: relative;
+	}
+	.page-box{
+		right: 0;
+	}
+	/* header part end */
+	/* features part start */
+	.features-card-box{
+		grid-template-columns: repeat(2,1fr);
+		gap: 35px;
+	}
+	/* features part end */
+	/* image slider part start */
+	.mySwiper-1,.mySwiper-2{
+		width: 100% !important;
+	}
+	.img-wrapper .swiper-slide{
+		width: 500px;
+	}
+	/* image slider part end */
+	/* video slider start */
+	.video-tooltip{
+		width: 350px;
+	}
+	.mySwiper-2{
+		padding-bottom: 0px;
+	}
+	/* video slider end */
+	/* why choose us part start */
+	.choose-box{
+		margin-top: 0px;
+	}
+	/* why choose us part end */
+	/* testimonial part start */
+	.testimonial-box{
+		grid-template-columns: repeat(2,1fr);
+	}
+	/* testimonial part end */
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.swiper-button-prev{
+		left: 84%;
+	}
+}
+/*Extra large devices (Extra large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	.swiper-button-prev{
+		left: 87%;
+	}
+}
+/*Extra large devices (Extra Extra large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+}
